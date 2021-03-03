@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>MINIMO</title>
+<link rel="stylesheet" type="text/css" href="csspor/reset-1.css"> 
+<link rel="stylesheet" type="text/css" href="csspor/minimo.css">
+<link rel="stylesheet" href="csspor/jquery.bxslider.css">
+<link rel="stylesheet" href="csspor/jquery.fullpage.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/minimo.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+</script>
+    </head>
+    <body>
+        <div id="wrap">
+            <!-- 헤더 -->
+            <header class="header cfixed">
+                <h1 class="logo"><a href="">MINIMO</a></h1>
+                <nav>
+                    <div class="gnb">
+                    <ul class = "gnb" id="gnb">
+                        <li class="gnb_list"><a href="#life-1" class="gnb_list_life">LIFESTYLE</a></li>
+                        <li class="gnb_list"><a href="#Photo-1" class="gnb_list_photo">PHOTODIARY</a></li>
+                        <li class="gnb_list"><a href="#music-1" class="gnb_list_music">MUSIC</a></li>
+                        <li class="gnb_list"><a href="#travle-1" class="gnb_list_travel">TRAVEL</a></li>
+                        <li class="gnb_list"><a href="#" class="gnb_list_contact">CONTACT US</a></li>
+                    </ul>
+                    </div>
+                    <span class="menu-toggle-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </nav>
+            </header>
+            <!-- 슬라이더 -->
+            <div id="fullpage">
+            <section class="slider">
+                <div class="bxslider">
+                    <div><img src="img/slider.jpg"></div>
+                    <div><img src="img/main2.jpg"></div>
+                    <div><img src="img/main3.jpg"></div>
+                </div>
+            </section>
+            <!-- 내용 -->
+            <section class="content cfixed section">
+                <section class="display-section">
+                    <div class="container">
+                        <h4 id="Photo-1">PHOTODIARY</h4>
+                        <h2 class="sec-tit">The Perfect weekend getaway</h2>
+                        <p class="desc">Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight. Sang lose of hour then he left find. 
+                            Seen you eyes son show. Far two unaffected one alteration apartments celebrated but middletons interested. Described deficient applauded consisted my me do. Passed edward two talent effect seemed engage six. On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day. Stairs regret at if matter to. On as needed almost at basket remain. By improved sensible servants children striking in surprise. 
+                            Barton did feebly change man she afford square add. Want eyes by neat so just must. Past draw tall up face show rent oh mr. Required is debating extended wondered as do. New get described applauded incommode shameless out extremity but. Resembled at perpetual no believing is otherwise sportsman. Is do he dispatched cultivated travelling astonished. Melancholy am considered possession on collecting everything. </p>
+                        <div class="comment-btn" onclick="sendComment()">
+                            <button class="sec-tit-bottom">LEAVE A COMMENT</button>
+                        </div> 
+                        <div class="comment">
+                            <div class="textarea">
+                                <label for="message" class="blind">message</label>
+                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="send-btn">
+                                <button>SEND MASSAGE</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 프로모션 -->
+                <section class="promotion section">
+                    <div class="container">
+                        <ul class="prom-list">
+                            <li id="music-1">
+                                <a href="#">
+                                    <div class="info">
+                                        <h3>2020-09-01</h3>
+                                        <span>load more..</span>
+                                    </div>
+                                    <img src="img/img1.jpg">
+                                    <h4>MUSIC</h4>
+                                    <h1>More than just a music festival</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididut ut lavore et dolre maga aliqua. Ut enim ad minim venaim, quis nosrud exercitation ullamco jaboris</p>
+                                </a>
+                            </li>
+                            <li id="life-1">
+                                <a href="#">
+                                    <div class="info">
+                                        <h3>2020-09-03</h3>
+                                        <span>load more..</span>
+                                    </div>
+                                    <img src="img/img2.jpg">
+                                    <h4>LIFESTYLE</h4>
+                                    <h1>Life tastes better with coffe</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididut ut lavore et dolre maga aliqua. Ut enim ad minim venaim, quis nosrud exercitation ullamco jaboris</p>
+                                </a>
+                            </li>
+                            <li id="life-2">
+                                <a href="#">
+                                    <div class="info">
+                                        <h3>2020-09-08</h3>
+                                        <span>load more..</span>
+                                    </div>
+                                    <img src="img/img3.jpg">
+                                    <h4>LIFESTYLE</h4>
+                                    <h1>Freash foods</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididut ut lavore et dolre maga aliqua. Ut enim ad minim venaim, quis nosrud exercitation ullamco jaboris</p>
+                                </a>
+                            </li>
+                            <li id="travle-1">
+                                <a href="#">
+                                    <div class="info">
+                                        <h3>2020-09-10</h3>
+                                        <span>load more..</span>
+                                    </div>
+                                    <img src="img/img4.jpg">
+                                    <h4 >TRAVLE</h4>
+                                    <h1>A exploring day</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididut ut lavore et dolre maga aliqua. Ut enim ad minim venaim, quis nosrud exercitation ullamco jaboris</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- 구독 영역 -->
+                <section class="sign-up">
+                    <div class="sing-uptit">
+                        <h1>sing up for our newsletter!</h1>
+                    </div>
+                    <div class="form-box">
+                        <label for="email" class="blind">email</label>
+                        <input type="email" id="email" placeholder="Enter a valid email address">
+                    </div>
+                    <div class="send-btn">
+                        <button>SEND MASSAGE</button>
+                    </div>
+                </section>
+                <!-- 프로모션 영역 -->
+                <section class="promotion2">
+                    <div class="container">
+                        <ul class="promo-list2">
+                            <li id="life-3">
+                                <a href="#">
+                                    <div class="info">
+                                        <h3>2020-09-10</h3>
+                                        <span>load more..</span>
+                                    </div>
+                                    <img src="img/img5.jpg">
+                                    <h4>LIFESTYLE</h4>
+                                    <h1>Top 10 song for running</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididut ut lavore et dolre maga aliqua. Ut enim ad minim venaim, quis nosrud exercitation ullamco jaboris</p>
+                                </a>
+                            </li>
+                            <li id="Photo-1">
+                                <a href="#">
+                                    <div class="info">
+                                        <h3>2020-09-10</h3>
+                                        <span>load more..</span>
+                                    </div>
+                                    <img src="img/img6.jpg">
+                                    <h4>PHOTODIARY</h4>
+                                    <h1>More than just a music festival</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididut ut lavore et dolre maga aliqua. Ut enim ad minim venaim, quis nosrud exercitation ullamco jaboris</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="load-more" onclick="showMore()">
+                    <button>Load more...</button>
+                </section>
+                <!-- load more 뒤에 내용 -->
+                <section class="promotion3">
+                    <div class="container">
+                        <ul class="promo-list3">
+                            <li id="life-3">
+                                <a href="#">
+                                    <div class="info">
+                                        <h3>2020-09-10</h3>
+                                        <span>load more..</span>
+                                    </div>
+                                    <img src="img/promotion3-1.jpg">
+                                    <h4>LIFESTYLE</h4>
+                                    <h1>Top 10 song for running</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididut ut lavore et dolre maga aliqua. Ut enim ad minim venaim, quis nosrud exercitation ullamco jaboris</p>
+                                </a>
+                            </li>
+                            <li id="Photo-1">
+                                <a href="#">
+                                    <div class="info">
+                                        <h3>2020-09-10</h3>
+                                        <span>load more..</span>
+                                    </div>
+                                    <img src="img/slider-3.jpg">
+                                    <h4>PHOTODIARY</h4>
+                                    <h1>More than just a music festival</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididut ut lavore et dolre maga aliqua. Ut enim ad minim venaim, quis nosrud exercitation ullamco jaboris</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+                <footer class="footer">
+                    <p>@copyright heesun0924@gmail.com</p>
+                </footer>
+            </section>
+        </div>
+    </body>
+<script src="./js/app.js">
+
+</script>
+</html>
